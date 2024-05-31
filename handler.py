@@ -7,7 +7,7 @@ def main(event, context):
     # requestData = event['extensions']['request']
 
 
-    with open('./sample_data.json', 'r') as file:
+    with open('sample_data.json', 'r') as file:
         json_data = json.load(file)
 
     loaded_model = joblib.load("linear_model_model.pkl")
