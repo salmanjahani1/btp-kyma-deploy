@@ -43,6 +43,6 @@ api.add_resource(HomePage, '/')
 api.add_resource(RunModel, '/predict')
 
 
-if __name__ == '__main__':
-# def main():
+# if __name__ == '__main__':
+def main():
     app.run('0.0.0.0', '80', debug=True)
